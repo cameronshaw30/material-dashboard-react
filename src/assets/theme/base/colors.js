@@ -54,9 +54,14 @@ const colors = {
     focus: "#8f93a9",
   },
 
+  // info: {
+  //   main: "#1A73E8",
+  //   focus: "#1662C4",
+  // },
+
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#9E7C0C",
+    state: "#241773",
   },
 
   success: {
@@ -107,9 +112,14 @@ const colors = {
       state: "#495361",
     },
 
+    // info: {
+    //   main: "#49a3f1",
+    //   state: "#1A73E8",
+    // },
+
     info: {
-      main: "#49a3f1",
-      state: "#1A73E8",
+      main: "#9E7C0C",
+      state: "#241773",
     },
 
     success: {

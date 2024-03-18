@@ -65,6 +65,21 @@ function Footer({ light }) {
             for a better web.
           </MDBox>
           <MDBox
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            flexWrap="wrap"
+            color={light ? "white" : "text"}
+            fontSize={size.sm}
+          >
+            Powered by
+            <Link href="https://queue-times.com//" target="_blank">
+              <MDTypography variant="button" fontWeight="medium" color={light ? "white" : "dark"}>
+                &nbsp;Queue-Times.com&nbsp;
+              </MDTypography>
+            </Link>
+          </MDBox>
+          <MDBox
             component="ul"
             sx={({ breakpoints }) => ({
               display: "flex",

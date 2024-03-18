@@ -75,6 +75,20 @@ function Footer({ company, links }) {
         for a better web.
       </MDBox>
       <MDBox
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            flexWrap="wrap"
+            fontSize={size.sm}
+          >
+            Powered by
+            <Link href="https://queue-times.com//" target="_blank">
+              <MDTypography variant="button" fontWeight="medium">
+                &nbsp;Queue-Times.com&nbsp;
+              </MDTypography>
+            </Link>
+          </MDBox>
+      <MDBox
         component="ul"
         sx={({ breakpoints }) => ({
           display: "flex",
